@@ -1,0 +1,217 @@
+@media screen and (max-width: 1280px) {
+  .page-bottom-content-title {
+    margin-top: 60px;
+    margin-left: 32px;
+    font-size: 20px;
+  }
+  .page-bottom-content-text {
+    max-width: 290px;
+    margin-top: 8px;
+    margin-left: 32px;
+    font-size: 16px;
+  }
+  .page-bottom-btn {
+    top: 1010px;
+    left: 430px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .page-title {
+    left: 40px;
+    width: 710px;
+  }
+  .page-bottom {
+    width: 769px;
+  }
+  .page-bottom-img {
+    width: 385px;
+  }
+  .page-bottom-btn {
+    top: 1010px;
+    left: 300px;
+  }
+  .dots {
+    right: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    min-height: 117px;
+  }
+  .header-logo {
+    margin-left: 32px;
+  }
+  .header-btn {
+    margin-right: 32px;
+  }
+  .header-content {
+    width: 166px;
+    height: 117px;
+  }
+  .header-sel {
+    display: none;
+  }
+  .page {
+    top: 117px;
+    min-height: 907px;
+  }
+  .page-title {
+    left: 33px;
+    top: 369px;
+    width: 381px;
+    height: 342px;
+  }
+  .page-title h1 {
+    padding: 56px 32px 0 24px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .page-title p {
+    padding: 24px 24px 0 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-bottom {
+    width: 354px;
+    height: 196px;
+    top: 711px;
+    right: 0;
+  }
+  .page-bottom-content {
+    width: 354px;
+    height: 196px;
+  }
+  .page-bottom-img {
+    display: none;
+  }
+  .page-bottom-content ul li {
+    margin: 10px;
+  }
+  .page-bottom-content-title {
+    margin-top: 60px;
+    margin-left: 32px;
+    font-size: 18px;
+  }
+  .page-bottom-content-text {
+    max-width: 290px;
+    margin-top: 8px;
+    margin-left: 32px;
+    font-size: 14px;
+  }
+  .page-btn {
+    top: 305px;
+    right: 32px;
+  }
+  .page-bottom-btn {
+    top: 777px;
+    left: 32px;
+  }
+  .dots {
+    top: 730px;
+    right: 80px;
+  }
+  .menu ul {
+    top: 117px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .page-bottom-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header {
+    min-height: 74px;
+  }
+  .header-logo {
+    margin-left: 24px;
+  }
+  .header-btn {
+    margin-right: 24px;
+  }
+  .header-content {
+    width: 166px;
+    height: 74px;
+  }
+  .page {
+    top: 74px;
+    min-height: 738px;
+  }
+  .page-title {
+    left: 24px;
+    top: 342px;
+    width: 327px;
+    height: 246px;
+  }
+  .page-title h1 {
+    padding: 32px 46px 0 16px;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .page-title p {
+    padding: 8px 16px 0 16px;
+  }
+  .page-bottom {
+    width: 327px;
+    height: 180px;
+    top: 162px;
+    left: 24px;
+  }
+  .page-bottom-content {
+    width: 327px;
+    height: 180px;
+  }
+  .page-bottom-img {
+    display: none;
+  }
+  .page-bottom-content ul li {
+    margin: 10px;
+  }
+  .page-bottom-content-title {
+    margin-top: 54px;
+    margin-left: 16px;
+    font-size: 14px;
+  }
+  .page-bottom-content-text {
+    max-width: 290px;
+    margin-top: 6px;
+    margin-left: 16px;
+  }
+  .page-btn {
+    top: 603px;
+    left: 24px;
+    width: 327px;
+    height: 48px;
+  }
+  .page-btn-text {
+    margin-left: 80px;
+  }
+  .pre-arrow {
+    height: 50px;
+    margin-left: 60px;
+  }
+  .page-btn-arrow {
+    margin: 10px;
+    font-size: 18px;
+  }
+  .page-btn:before {
+    height: 48px;
+  }
+
+  .menu ul {
+    top: 74px;
+    padding: 0;
+  }
+  .menu ul li {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+  .dots {
+    top: 180px;
+    left: 22px;
+  }
+  .menu-footer {
+    left: 24px;
+  }
+}
