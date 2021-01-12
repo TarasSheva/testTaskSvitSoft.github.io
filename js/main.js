@@ -1,5 +1,5 @@
 // MENU
-const menu = document.querySelector('.header-btn');
+const menu = document.querySelector('.header-button');
 const menuBlock = document.querySelector('.menu');
 menu.addEventListener('click', () => {
   menu.classList.toggle('is-active');

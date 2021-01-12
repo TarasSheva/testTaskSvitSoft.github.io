@@ -27,7 +27,7 @@ ul {
   align-items: center;
   width: 468px;
   height: 96px;
-  background: #dadde8;
+  background: #f7f8fc;
   left: 0;
 }
 .header-logo {
@@ -58,31 +58,40 @@ ul {
 .header-sel .active {
   font-weight: 900;
 }
-.header-btn {
+.header-button {
   position: absolute;
   right: 0;
   margin-right: 80px;
   width: 32px;
   height: 32px;
   z-index: 5;
-}
-.header-btn .bar {
-  display: block;
+  background: transparent;
   cursor: pointer;
-  width: 32px;
-  height: 5px;
-  margin: 4px auto;
-  transition: all 0.3s ease-in-out;
-  background: #4e254f;
 }
-.header-btn.is-active .bar:nth-child(2) {
+
+.prorep {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+}
+.rep {
+  width: 4px;
+  height: 4px;
+  background-color: #4e254f;
+}
+.prorep + .prorep {
+  margin-top: 10px;
+}
+.header-button.is-active .prorep:nth-child(2) {
   opacity: 0;
 }
-.header-btn.is-active .bar:nth-child(1) {
-  transform: translateY(9px) rotate(45deg);
+.header-button.is-active .prorep:nth-child(1) {
+  background-color: #4e254f;
+  transform: translateY(14px) rotate(45deg);
 }
-.header-btn.is-active .bar:nth-child(3) {
-  transform: translateY(-9px) rotate(-45deg);
+.header-button.is-active .prorep:nth-child(3) {
+  background-color: #4e254f;
+  transform: translateY(-14px) rotate(-45deg);
 }
 
 /*******page*******/
